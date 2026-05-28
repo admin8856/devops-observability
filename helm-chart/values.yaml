@@ -1,0 +1,9 @@
+replicaCount: 2
+image:
+  repository: kruti28/flask-app
+  tag: latest
+  pullPolicy: Always
+service:
+  type: NodePort
+  port: 5000
+  nodePort: 30007
