@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/admin8856/devops-observability.git'
+                git branch: 'main', url: 'https://github.com/Krutika-bj/devops-observability.git'
             }
         }
         stage('Build Docker Image') {
